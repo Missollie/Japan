@@ -1,0 +1,33 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.header__item{
+    padding-right: 82px;
+}
+.header__item:last-child{
+    padding-right: 0;
+}
+.header__link{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+.header__link:hover, .header__link:focus, .header__link:active{
+    opacity: .75;
+} //стили для наведения links
