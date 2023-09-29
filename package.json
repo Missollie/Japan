@@ -12,7 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.2",
-    "browser-sync": "^2.27.7",
+    "browser-sync": "^2.29.3",
     "browsersync": "^0.0.1-security",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
@@ -39,7 +39,7 @@
     "sass": "^1.48.0",
     "swiper": "^7.4.1",
     "webp-converter": "2.2.3",
-    "webpack": "^5.66.0",
+    "webpack": "^5.88.2",
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
