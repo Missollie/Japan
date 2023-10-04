@@ -6,16 +6,16 @@
 }
 
 .intro__title {
-  max-width: 619px;
+  max-inline-size: 619px;
   font-weight: 500;
   font-size: 50px;
   line-height: 60px;
   color: white;
-  padding-bottom: 22px;
+  padding-block-end: 22px;
 }
 
 .intro__subtitle {
-  max-width: 546px;
+  max-inline-size: 546px;
   color: white;
   font-size: 16px;
   line-height: 24px;
@@ -28,14 +28,14 @@
 }
 
 .search-form__field {
-  width: 297px;
+  inline-size: 297px;
   background: transparent url(../img/icon/Oval.svg) no-repeat left 6px;
   background-size: 20px;
   border: 0;
-  border-bottom: 2px solid #BFC0C5;
-  margin-right: 60px;
-  padding-left: 43px;
-  padding-bottom: 22px;
+  border-block-end: 2px solid #BFC0C5;
+  margin-inline-end: 60px;
+  padding-inline-start: 43px;
+  padding-block-end: 22px;
   color: white;
 }
 
@@ -58,4 +58,75 @@
   color: #fff;
 }
 
-/*benefit cards*/
+/*benefits style*/
+.benefits {
+  padding-bottom: 131px;
+}
+
+.benefits__wrap {
+  max-width: 1262px;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 0px 2px 20px 0px rgba(21, 24, 36, 0.16);
+  position: relative;
+}
+
+.benefits__title {
+  inline-size: 100%;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+  padding: 93px 100px 88px 100px;
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  transform: translateY(-100%);
+  background-color: white;
+}
+
+.benefits__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 55px;
+  padding: 0 100px;
+}
+
+.benefits__card {
+  grid-column: span 1;
+  padding-bottom: 112px;
+}
+
+.benefits__card-thumb {
+  display: block;
+  padding-bottom: 37px;
+}
+
+.benefits__card-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 26px;
+}
+
+.benefits__card-des {
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 39px;
+}
+
+.benefits__card-more {
+  display: inline-block;
+  padding-inline-end: 59px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006DFE;
+  text-decoration: none;
+  background: url(../img/Shape.svg) no-repeat 95% center;
+  transition: 0.2s all;
+}
+
+.benefits__card-more:hover, .benefits__card-more:focus {
+  background: url(../img/Shape.svg) no-repeat right center;
+}
+
+/*benefits end*/
