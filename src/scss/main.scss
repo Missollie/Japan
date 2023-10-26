@@ -215,6 +215,46 @@
 }// при нажатие на картинку должна біть ссіла для перехода, ссылку ставим по верх картинки чтобы при нажатие переходило по ссылке и растягиваем эту ссылку по ширене картинки
 /*places styles end*/
 
+/*tours styles start*/
+.tours{
+    padding-bottom: 139px;
+}
+
+.tours__tour{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    padding-bottom: 77px;
+}
+.tour__info{
+    padding-left: 47px;
+}
+.tour__title{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-bottom: 85px;
+}
+.tour__desc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 58px;
+    
+}
+.tour__more{
+    font-size: 16px;
+    color: #006DFE;
+    text-decoration: none;
+    padding-right: 59px;
+    background: url(../img/Shape.svg) no-repeat right center;
+}
+.tour__more:hover, .tour__more:focus{
+    opacity: .65;
+} 
+/*tours styles end*/
+
 
 
 
