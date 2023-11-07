@@ -3,13 +3,19 @@
     top: 0;
     left: 0;
     width: 100%;
+    transition: .4s linear;
+    padding-bottom: 30px;
+    z-index: 15;
+}
+.header_active{
+    background: #0E1D28;;
 }
 .header__wrapper{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
-    padding-top: 65px;
+    padding-top: 30px;
 }
 .header__list{
     display: flex;
