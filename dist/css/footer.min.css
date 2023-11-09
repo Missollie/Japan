@@ -63,8 +63,23 @@
 
 /*footer styles end*/
 /*footer media start*/
-.footer {
-  padding: 60px 0;
-}
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 50px 0;
+  }
 
+  .footer__logo-pic {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer__nav {
+    width: 100%;
+  }
+
+  .footer__menu {
+    width: 50%;
+    padding-bottom: 24px;
+  }
+}
 /*footer media end*/
