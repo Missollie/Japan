@@ -35,3 +35,4 @@ export function scroll(targetEl, duration){
     };
     scrollTo();
 };
+//
