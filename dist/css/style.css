@@ -521,7 +521,8 @@ textarea {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: black;
+    opacity: 0.9;
+    background-color: #0E1D28;
     z-index: 10;
     padding: 75px;
     transform: translateX(100%);
